@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+/* Navigation styles */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    
+    font-family: 'Ubuntu' sans-serif;
+    padding: 15px 0;
+
+}
+
+
+.navbar.sticky{
+    background: #A3B18A;
+    padding: 15px 0;
+
+}
+
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+
+}
+
+
+.navbar .menu li a:hover{
+    color: #99bddc;
+    font-size: 20px;
+    
+
+}
+
+
+.navbar .logo a{
+    color: #f4d291;
+    font-size: 35px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+}
+
+
+.navbar .logo a:hover{
+    font-size: 40px;
+    color: #99bddc;
+}
+
+
+
+.navbar .logo i{
+    color: #f4d291;
+}
+
+
+.navbar .logo span{
+    color: #fff;
+}
+
+
+.navbar .menu li{
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+
+
+.navbar .menu li:hover{
+    color: #99bddc;
+    
+}
+
+
+.max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    
+}
+
+
+/* Home page styles */
+
+.container{
+    font-family: 'Ubuntu' sans-serif ;
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(assests/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+
+
+} 
+
+
+.container_left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 60px;
+} 
+
+
+.container_left.content{
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+    
+
+} 
+
+
+.content h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #f8ecf8;
+    font-weight: 700;
+    
+} 
+
+
+
+
+.content p{
+    color: #fff;
+    
+
+} 
+
+
+
+.btns{
+    display: flex;
+    gap: 1rem;
+    
+    
+} 
+
+
+
+.btns button{
+    padding: 0.5rem 2rem;
+    color: #fff;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: 2 solid #333;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+} 
+
+
+.btns button:hover{
+    color: #99bddc;
+    font-size: 18px;
+    
+
+}
+
+
+.button.read_more{
+    background-color: #fff;
+    color: #333;
+    
+} 
+
+
+.button.our_blogs{
+    background-color: #fff;
+    color: #333;
+    
+} 
+
+
+.container_right{
+    justify-content: flex-end;
+    padding: 200px 60px;
+} 
+
+
+form {
+    width: 350px;
+    display: grid;
+    border-radius: 5px;
+    background-color: #fffae6;
+    color: #333;
+    
+} 
+
+
+form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2rem;
+    
+} 
+
+
+.form_group {
+    display: grid;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    
+} 
+
+
+.form_group input{
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #333;
+} 
+
+.form_btns button {
+    width: 350px;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4d291;
+    color: #333;
+    cursor: pointer;
+    
+} 
